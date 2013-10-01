@@ -1,0 +1,248 @@
+#wrapper {
+    width: 900px; 
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, helvetica, sans-serif; 
+    font-size: 62.5%; 
+} 
+
+p#login {
+    float: left;
+    width: 50%;
+    height: 20px;
+    margin-bottom: 0;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+p#subscribe {
+    float: right;
+    width: 50%;
+    text-align: right;
+    height: 20px;
+    margin-bottom: 0;
+    margin-top: -20px;
+    margin-right: 50px;
+}    
+
+#top_bar {
+    overflow: hidden;
+    background:  #08413c url(http://i.imgur.com/pdBL2Bq.jpg) top;
+    height: 30px;
+    border-bottom: 1px solid #7ab7b7; 
+}
+
+#top_bar p {
+    font-size: 1.2em;
+    color: #ebf0e8;
+}
+
+#top_bar a {
+    font-size: 1.2em;
+    color: #a5bf8d;
+}               
+
+#header {  
+    overflow: hidden;
+    background: url(http://i.imgur.com/cvCGykZ.jpg) ; 
+    height: 138px;  
+    position: relative;
+}  
+
+h1 {  
+    font-family: "Myriad Pro", arial, sans-serif;   
+    color: #fff;   
+    font-weight: normal;   
+    font-size: 4.8em;    
+    margin-left: 50px;
+} 
+
+#branding {
+    overflow: hidden;
+    height: 60px;
+    margin: 20px -3px 20px 50px;
+} 
+
+p#desc {  
+    font-family: "Myriad Pro", arial, sans-serif;   
+    color: #fff;   
+    font-size: 2.4em;   
+    position: absolute;
+    height: 30px;
+    left: 250px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    top: 25px;
+}  
+
+#navigation {
+    overflow: hidden;
+    background : url(http://i.imgur.com/cOGSbnZ.jpg);
+    height: 39px;
+    border-top: 1px solid #9cebda;  
+}
+
+ul#menu {
+    list-style: none; 
+    height: 40px;
+    margin: 9px 0px 0px 50px;
+    padding-left: 0;
+}  
+
+ul#menu li a {  
+    font-size: 1.8em;   
+    text-decoration: none;   
+    color: #2b2b2b;  
+    text-transform: uppercase;  
+}  
+
+ul#menu li {
+    float:left;
+    padding-right: 45px;
+}
+
+#posts {
+    float: left;
+    width: 67%;
+    margin-top: 28px;
+}
+
+#sidebar {
+    float: right;
+    width: 33%;
+    background: #d8ddd1;
+}
+
+#content {
+   overflow: hidden;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+#posts h2 {
+    margin: 7px 0 4px 0; 
+    font-size: 2.4em;
+}  
+
+#posts h2, h3, h4, h5, h6 {
+    color: #3c3f40; 
+}  
+
+#posts p {
+    line-height: 1.3em; 
+    padding: 7px 0; 
+    font-size: 1.2em; 
+}  
+
+#posts small {
+    font-size: 1.1em; 
+}  
+
+#posts a {
+    color: #327800; 
+    font-weight: bold; 
+    text-decoration: none; 
+}  
+
+#posts blockquote {
+    margin: 0.7em 3em; 
+    border-left: 2px solid #327800; 
+    padding-left: 10px; 
+}  
+
+#posts ol, ul, dl {
+    font-size: 1.2em; 
+    margin: 4px 0 4px 40px; 
+}  
+
+#posts h3, h4, h5, h6 {
+    padding: 4px 0; 
+}  
+
+#posts strong {
+    font-weight: bolder; 
+}  
+
+#posts em {
+    font-style: italic; 
+}  
+
+#posts code {
+    font-size: 1.2em; 
+}  
+
+#posts h3 {
+    font-size: 1.8em;
+}  
+
+#posts h4 {
+    font-size: 1.4em; 
+}
+
+#sidebar h3 {  
+    font-size: 1.6em;   
+    color: #3c3f40;   
+    margin: 10px 0px 0px 50px;
+}  
+
+#sidebar ul {
+    list-style: none; 
+    margin-left: 20px; 
+}  
+
+#sidebar ul li {
+    font-size: 1.2em; 
+}  
+
+#sidebar ul li a {
+    text-decoration: none;
+    color: #525254; 
+} 
+
+#footer {
+    background: url(http://i.imgur.com/h51x9UQ.jpg);
+    font-size: 1em;
+    border-top: 2px solid #1e956c;
+    margin-top: 30px;
+    height: 123px;  
+}
+
+#footer p {
+    color: #a5bf8d;
+}  
+
+#footer h4 {color:  #a5bf8d; 
+    font-size: 1.6em; 
+    padding-top: 0;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding-left: 50px;
+}  
+
+#footer ul {
+    list-style: none; 
+    margin-left: 0; 
+    padding-left: 50px;
+}  
+
+#footer ul li a {
+    text-decoration: none; 
+    color: #fff; 
+}
+
+#copyright {
+    float: left; 
+    width: 20%; 
+}  
+
+#links {
+    float: left; 
+    width: 40%; 
+}  
+
+#feeds {
+    float: left; 
+    width: 40%; 
+}
