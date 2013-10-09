@@ -103,7 +103,7 @@ ul#menu li a {
 } 
 
 ul#menu li a:hover {
-background:#fff;
+    background:#fff;
 } 
 
 ul#menu li {
@@ -129,23 +129,19 @@ ul.menulvl1 {
     display: none;
 }
 
-ul#menu ul.menulvl1 li {
+ul#menu li li{
     display: block;
-    padding: 0px 4px;
-}
-
-ul#menu ul.menulvl1 a {
-    display: block;
-    float: left;
-    color: #ff00ce;
+    padding: 4px;
     width: 100%; 
+    float: left;
+    color: #000;
 }
 /*end of navigation*/
 
 /*content*/
 #content {
- width: 100%;
- float: left;
+   width: 100%;
+   float: left;
 }
 /*content*/
 
@@ -238,7 +234,7 @@ ul#menu2 li a {
     display: block;
     font-size: 1.2em;
     text-decoration: none;
-    color: #525254;  
+    color: #d8ddd1;  
     text-align: center;
 }
 
@@ -247,7 +243,7 @@ ul#menu2 li {
 } 
 
 ul#menu2 li a:hover {
-    background-color:  #f4ac00;
+    background-color:  #ffa900;
 }
 
 ul.submenu {
@@ -255,9 +251,9 @@ ul.submenu {
     list-style: none;
     width: 200px;
     height: auto;
-    background-color: #d8ddd1;
+    background-color: #000;
     position: absolute;
-    left: -220px;
+    left: -200px;
     margin-left: 0;
     padding-left: 0;
     top: 0px;
@@ -290,33 +286,50 @@ ul#menu3 li a {
     display: block;
     font-size: 1.2em;
     text-decoration: none;
-    color: #525254;  
+    color: #d8ddd1;  
     text-align: center;
-}
-
-ul#menu3 li a:hover {
-    background-color:  #ffd792;
 }
 
 ul#menu3 li {
     position: relative;
+}
+
+
+ul#menu3 li a:hover {
+    background-color:  #ffa900;
+}
+
+
+div.submenu2 {
+    display: none;
     list-style: none;
     width: auto;
     height: auto;
-} 
+    background-color: #000;
+    margin-left: 0;
+    padding-left: 0;
+    top: 0px;
+}
 
-ul#menu3 li:hover div.submenu2 { 
+div.submenu2 ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.submenu2 li {
+    width:100%;
+    display: block;
+}
+
+div.submenu2 a {
+    display: block;
+    width: 92%;
+    padding: 6px 4%;
+}
+
+ul#menu3 li:hover div.submenu2{ 
     display: inherit; 
 }
-
-#menu3 li div.submenu2 {
-    display: none;
-    background-color: #fbd1d2;
-    padding-left: 0;
-    margin-left: 0;    
-}
-
-
 /*end sidebar in content*/
 
 #footer {
